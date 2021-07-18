@@ -2,56 +2,258 @@
 {
     margin: 0;
     padding: 0;
+}
+html,body
+{
     font-family: 'Poppins';
+    color: black;
 }
-body
+/*-- hOME pAGE STYLING ---*/
+.logo
 {
-    background-image: url(https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80);
-    display: flex;
-    position: relative;
-}
-h1
-{
-    display: flex;
-    position: relative;
+    top: 10px;
+    left: 30px;
+    padding: 30px;
     font-size: 36px;
-    align-items: center;
+    font-weight: 300;
 }
-.nav-links
+.navigation
 {
-    display: flex;
-    position: relative;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
-
-
-}
-ul
-{
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0;
-    margin: 0;
     top: 0;
-    right: 0;
-    
-}
-li
-{
+    left: 10%;
     position: relative;
     display: flex;
+
+}
+header
+{
+    background-image: url(https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80);
+    width: 100%;
+    padding: 5px;
+    margin: 0px;
+    height: 100%;
+    
+
+}
+.navigation ul
+{
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.navigation ul li
+{
+    position: relative;
+    text-align: center;
+    list-style: none;
     align-items: center;
     justify-content: space-between;
-    padding: 40px;
-    margin: 20px;
-    text-align: center;
+}
+.navigation ul li a
+{
+    font-size: 16px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.navigation ul li a:hover
+{
     color: white;
 }
-button
+h2
 {
-    background-color: #c4c4c4;
-    border-radius: 20px;
-    color: blue;
+    color: #0CFF41;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 120px;
+}
+p
+{
+    color: white;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 100;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px;
+    
+}
+
+/*-- ABOUT ME PAGE STYLING ---*/
+.aboutme
+{
+    padding: 5px;
+    margin: auto;
+    border: 2px;
+    background-color: #EADBDB;
+}
+.aboutme .aboutMe
+{
+    border: 1px;
+    padding: 2px;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+.aboutme .aboutMe h2
+{
+    color: black;
+    font-size: 36px;
+    font-weight: 300;
+}
+.aboutme .aboutMe img
+{
+    align-items: center;
+    justify-content: center;
+}
+.aboutme .aboutMe p
+{
+    color: black;
+    font-size: 24px;
+    font-weight: 300;
+    font-style: normal;
+    border: 2px;
+    padding: 50px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(16, 231, 185, 0.74);
+}
+/*--- GAllery Page styling --*/
+.gallery
+{
+    padding: 5px;
+    margin: auto;
+    border: 2px;
+    background-color: white;
+}
+.gallery .galleries
+{
+    border: 1px;
+    padding: 2px;
+    
+    
+}
+.gallery .galleries h2
+{
+    color: black;
+    font-size: 36px;
+    font-weight: 300;
+}
+.gallery .galleries p
+{
+    color: black;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    border: 2px;
+    padding: 5px;
+    margin: 2px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+}
+.gallery .galleries img
+{
+    width: 30%;
+    height: 30%;
+}
+
+/*--- Contact Page styling ---*/
+.contact
+{
+    padding: 5px;
+    margin: auto;
+    border: 2px solid black;
+    background-color: white;
+}
+.contact h2
+{
+    color: black;
+    font-size: 36px;
+    font-weight: 300;
+}
+.contact p
+{
+    color: black;
+    font-size: 24px;
+    font-weight: 300;
+    font-style: normal;
+    border: 2px;
+    padding: 0px;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.contact form
+{
+    color: black;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    border: 2px;
+    padding: 0px;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+input
+{
+    width: 100px;
+    padding: 13px 20px;
+    margin: 8px 0;
+
+}
+/*--- FOOTER page styling ---*/
+footer
+{
+    padding: 5px;
+    margin: auto;
+    border: 2px;
+    background-color: #EADBDB;
+}
+
+footer h2
+{
+    color: black;
+    font-size: 26px;
+    font-weight: 300;
+}
+footer p
+{
+    color: black;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    border: 2px;
+    padding: 5px;
+    margin: 2px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+footer img 
+{
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    border: 2px;
+    padding: 5px;
+    margin: 2px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
